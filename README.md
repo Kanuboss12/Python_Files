@@ -1,6 +1,8 @@
-## Question on conditional statement in Python
-Create a bank system which shows details of customer when password is served otherwise show thankyou and please visit again. Along with this system to be dynamic that is if customer want to share his/her details then it show till IFSC Code to clients and to me complete details.
+# Question on Conditional Statement 
+### Question
+Create a bank system which shows details of customer when password is served otherwise show wrong password, Try again, and thanks. Along with this system needs to be dynamic that is if customer want to share his/her bank details then it show till IFSC Code only to clients and to the customer complete details.
+### Answer 
 I created a Bank system to show details of the customer.
-I dont want to show my bank name and other details below it so i set up a Password.
-But if person enter wrong then it will not show anything like wrong so use else statement also.
-I Want to Show only till IFSC Code to my Client and to me Complete Details so Enter 2222 for my Personal and to my Client only 1111 is Required to be Shared and for Unknown Person no Password Need to be Shared.
+For security purpose customer set up a savedpassword 1111 with which bank name and other details are visible. But if person enter wrong password then it will show wrong password, Try again, and thanks so i used else statement also.
+
+As there is a need to Share details only till IFSC Code with Client and to customer Complete Details so set up mypp as 2222 for customer complete details using if statement and for sharing bank details with client only savedpassword 1111 need to be Shared and to Unknown Person no Password is provided.
